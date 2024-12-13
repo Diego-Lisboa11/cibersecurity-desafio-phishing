@@ -3,19 +3,18 @@
 ### Ferramentas
 
 - Kali Linux
-- setoolkit
+- Zphisher
 
 ### Configurando o Phishing no Kali Linux
 
-- Acesso root: ``` sudo su ```
-- Iniciando o setoolkit: ``` setoolkit ```
-- Tipo de ataque: ``` Social-Engineering Attacks ```
-- Vetor de ataque: ``` Web Site Attack Vectors ```
-- Método de ataque: ```Credential Harvester Attack Method ```
-- Método de ataque: ``` Site Cloner ```
-- Obtendo o endereço da máquina: ``` ifconfig ```
-- URL para clone: http://www.facebook.com
+- Entrando no diretório: ``` cd zphisher ```
+- Iniciando o zphisher: ``` sudo bash zphisher.sh ```
+- Selecionando o ataque: ``` 1 a 33 ```
+- Selecionando uma opção: ``` Traditional Login Page ```
+- Selecionando um serviço de encaminhamento de porta: ```Cloudfared ```
+- Porta Personalinada: ``` N ```
+- Mudar a URL da máscara: ``` S/N ```
 
 ### Resutados
 
-![Alt text](./passwd.png "Optional title")
+![Alt text](./capturasenha.png "Optional title")
